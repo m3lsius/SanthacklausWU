@@ -30,7 +30,7 @@ First of all, as we have an IP (51.75.202.113) and a port (10001), we will launc
 $: nc 51.75.202.113 10001
 ```
 
-![][prompt.png]
+![prompt][Capture WU/MenthalArithmetic/prompt.png]
 
 
 We can start testing the comportement of the application and we find out that, is we take more than 2 seconds to respond, we receive the message "Timeout !", and if we give the wrong answer within 2 seconds, we will receive a "Nop"
